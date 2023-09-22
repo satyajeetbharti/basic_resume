@@ -1,0 +1,76 @@
+#row1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    /* background-color: rgba(20, 20, 54, 0.575); */
+    background-color: #313c4e;
+}
+h1{
+    color: white;
+}
+.personal-picture{
+    height: 100px;
+    width: 100px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(106, 136, 218) 0px 0px 0px 6px, rgb(19, 239, 255) 0px 0px 0px 9px;
+    margin-top: 40px;
+}
+.self-description{
+    width: 550px;
+    /* height: auto; */
+    color: rgb(235, 228, 217)
+}
+
+/* contact page */
+#contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    /* background-color:black; */
+    background-color: #222A33;
+}
+.contact-details{
+    color: white;
+    /* background-color: blueviolet; */
+    
+}
+
+/* education-details */
+#education-details{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+
+/* skills list */
+.skill-list{
+    height: 23px;
+    width: 140px;
+    border: 1px solid rgb(104, 102, 102);
+    border-radius: 5px;
+    margin:3px;
+    background-color: rgb(173, 167, 167);
+    
+}
+.skill-list:hover{
+    height: 23px;
+    width: 140px;
+    border: 1px solid rgb(104, 102, 102);
+    border-radius: 5px;
+    margin:3px;
+    color: white;
+    background-color: black;
+    margin-left:4px;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+}
+.pizza{
+    margin: 3px;
+}
+
+
+
+    
